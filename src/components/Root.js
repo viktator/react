@@ -7,7 +7,7 @@ function Root(props) {
 
     return (
                 <Provider store = {store}>
-              <App {...props} />
+              <App />
               </Provider>
         )
 

@@ -1,8 +1,10 @@
 import React, {Component} from 'react'
 import Article from './Article'
+import {connect} from 'react-redux'
 
 
-export default class ArticleList extends Component {
+
+class ArticleList extends Component {
 
     state = {
         openArticleId : null
@@ -27,3 +29,8 @@ export default class ArticleList extends Component {
                             )
                          }
 }
+
+
+export default connect((state) => ({
+    articles: state.articles
+}))(ArticleList)

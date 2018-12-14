@@ -14,7 +14,7 @@ import UserForm from './UserForm'
          return (
                 <div>
                     <Counter />
-                   <ArticleList articles = {this.props.articles}/>
+                   <ArticleList />
                  
                 </div>
          )

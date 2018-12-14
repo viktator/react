@@ -6,4 +6,4 @@ import Root from "./components/Root.js"
 
 
 
-render(<Root articles = {articles}/>, document.getElementById('container'))
+render(<Root/>, document.getElementById('container'))
